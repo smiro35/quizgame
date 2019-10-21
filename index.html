@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/game.js">
+    </script>
+    <title>Quiz game app</title>
+</head>
+
+<body>
+
+    <!-- first we need to create 3 divs: one for the start page, second-questions, third: scores -->
+
+    <!-- main div -->
+    <div class="container">
+
+
+        <h1>
+            <p>Please answer the following questions to the best of your ability.</p>
+            <p> You will here you have 45 seconds in total</p>
+        </h1>
+
+        <button type="button" id="go" class="btn btn-primary btn-lg">START</button>
+
+
+
+
+
+        <!-- questions div that is hidden initially -->
+
+
+        <div id="questionsContainer" class="hide">
+
+            <div id="question"> Questions</div>
+
+            <!-- timer div here -->
+
+            <!-- <div id="timer" class="row justify-content-center mt-5 mb-2>
+               
+                <h2>here</h2>
+            
+            </div> -->
+
+            <div id=" choices">
+
+                <button id="A" type="button " class="btn btn-secondary btn-lg btn-block ">a</button> </button>
+                <button id="B" type="button " class="btn btn-secondary btn-lg btn-block ">b</button> </button>
+                <button id="c" type="button " class="btn btn-secondary btn-lg btn-block ">c</button> </button>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="scores "></div>
+
+    </div>
+
+
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+
+
+
+    <!-- <button type="button " class="btn btn-secondary btn-lg btn-block ">Block level button</button> -->
+
+</body>
+
+</html>
